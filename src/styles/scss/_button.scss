@@ -1,0 +1,54 @@
+.btns {
+	border: 0;
+	outline: 0;
+	background: none;
+	text-decoration: none;
+}
+
+.user-btn {
+	padding: 25px 45px;
+	border-radius: 15px;
+
+	svg {
+		color: $light-color;
+	}
+
+	&.pink {
+		background: $pink;
+	}
+	&.purple {
+		background: $purple;
+	}
+	&.green {
+		background: $green;
+	}
+}
+
+.btn-nav {
+	background: $green;
+	color: $light-color;
+	padding: 5px 20px;
+	border-radius: 6px;
+}
+
+.btn-paginate {
+	padding: 10px 20px;
+	border-radius: 6px;
+
+	&.purple {
+		background: $purple;
+		color: $light-color;
+
+		svg {
+			margin-right: 5px;
+		}
+	}
+	&.ash {
+		background: #ececf3;
+		margin-right: 10px;
+	}
+	&.dark {
+		background: $dark-color;
+		color: $light-color;
+	}
+}
